@@ -28,6 +28,8 @@ import {
   SocialIconLink
 } from './Footer.elements';
 
+
+
 function Footer() {
   return (
     <FooterContainer>
@@ -76,13 +78,22 @@ function Footer() {
             </FooterLinkItems>
          
 
-          <FooterLinkItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to='/'>Instagram</FooterLink>
-            <FooterLink to='/'>Facebook</FooterLink>
-            <FooterLink to='/'>Youtube</FooterLink>
-           </FooterLinkItems>
+                      <FooterLinkItems>
+                        <FooterLinkTitle>Social Media</FooterLinkTitle>
+                        
+                        
 
+                        <a 
+                        style={{color: 'inherit', textDecoration: 'inherit'}}            
+                        href='https://instagram.com/fitness_center_ranchi?igshid=10r1ajgnrivwh'>Instagram</a>
+                        <a 
+                        style={{color: 'inherit', textDecoration: 'inherit'}}
+                        href='https://www.facebook.com/fitnesscenterranchi'>Facebook</a>
+                        <a 
+                        style={{color: 'inherit', textDecoration: 'inherit'}}
+                        href='https://www.youtube.com/channel/UCsWNeWARwB5Du4QIKLLvVyQ'>Youtube</a>
+                      </FooterLinkItems>
+`
         </FooterLinksWrapper>
 
       </FooterLinksContainer>
@@ -95,15 +106,15 @@ function Footer() {
           </SocialLogo>
           <WebsiteRights>Anushka © 2021</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+            <SocialIconLink href='https://www.facebook.com/fitnesscenterranchi' target='_blank' aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+            <SocialIconLink href='https://instagram.com/fitness_center_ranchi?igshid=10r1ajgnrivwh' target='_blank' aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink
               href={
-                '//www.youtube.com/'
+                'https://www.youtube.com/channel/UCsWNeWARwB5Du4QIKLLvVyQ'
               }
               rel='noopener noreferrer'
               target='_blank'
