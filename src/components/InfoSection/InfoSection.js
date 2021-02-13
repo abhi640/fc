@@ -23,6 +23,7 @@ function InfoSection({
   headline,
   description,
   buttonLabel,
+  buttonLabel2,
   img,
   alt,
   imgStart,
@@ -42,6 +43,7 @@ function InfoSection({
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
+                  
                 </Link>
               </TextWrapper>
             </InfoColumn>

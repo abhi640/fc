@@ -8,7 +8,8 @@ export const homeObjOne = {
   headline: 'Keep Your Body Fit & Strong',
   description:
     'FITNESS CENTER – fitness health center where your body gets its shape! Start training now to stay fit and healthy all year round!',
-  buttonLabel: 'Get Started',
+  buttonLabel: 'Join Now',
+  
   imgStart: '',
   img: require('../../images/a1.png'),
   alt: 'Credit Card',

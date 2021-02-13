@@ -9,16 +9,23 @@ import Feedback from '../../components/testimonials/Testimonial';
 function Home() {
   return (
     <div>
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjThree} />
       
+    <InfoSection {...homeObjOne} />
+
+    
+      <Cards />
+
       <CallToAction />
+
       <Services />
+
       <InfoSection {...homeObjTwo} />
       <Pricing />
-      <InfoSection {...homeObjFour} />
-      <Cards />
+      
       <Feedback />
+      
+      
+      
     </div>
   );
 }
