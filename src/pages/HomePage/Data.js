@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Unisex Multi-Gym',
-  headline: 'Keep Your Body Fit & Strong',
+  headline: 'GET FIT, STRONG AND MOTIVATED!',
   description:
     'FITNESS CENTER – fitness health center where your body gets its shape! Start training now to stay fit and healthy all year round!',
   buttonLabel: 'Join Now',
