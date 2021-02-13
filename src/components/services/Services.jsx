@@ -12,7 +12,7 @@ import {
   Divider,
 } from './style';
 
-const Services = ({
+const ServicesComp = ({
   title = "OUR SERVICES",
   content = " We offer more than 35 group exercise, aerobic classes each week.",
 }) => {
@@ -42,4 +42,4 @@ const Services = ({
   );
 };
 
-export default Services;
+export default ServicesComp;

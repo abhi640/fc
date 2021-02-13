@@ -1,13 +1,16 @@
 import React from 'react';
 import { InfoSection, Pricing } from '../../components';
-import { homeObjOne, homeObjThree } from './Data';
+
+import ServicesComp from '../../components/services/Services';
+import Feedback from '../../components/testimonials/Testimonial';
 
 function Services() {
   return (
     <>
+      <ServicesComp />
       <Pricing />
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjThree} />
+      <Feedback />
+
     </>
   );
 }
