@@ -55,6 +55,11 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItem>
+                <NavLinks to='/gallery' onClick={closeMobileMenu}>
+                  Gallery
+                </NavLinks>
+              </NavItem>
+              <NavItem>
                 <NavLinks to='/services' onClick={closeMobileMenu}>
                   Services
                 </NavLinks>
@@ -70,8 +75,8 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/products' onClick={closeMobileMenu}>
-                  Products
+                <NavLinks to='/reviews' onClick={closeMobileMenu}>
+                  Reviews
                 </NavLinks>
               </NavItem>
               <NavItemBtn>
