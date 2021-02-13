@@ -43,36 +43,34 @@ function Footer() {
       </FooterSubscription>
       <FooterLinksContainer>
         <FooterLinksWrapper>
-          <FooterLinkItems>
-            <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to='/sign-up'>How it works</FooterLink>
-            <FooterLink to='/'>Testimonials</FooterLink>
-            <FooterLink to='/'>Careers</FooterLink>
-            <FooterLink to='/'>Investors</FooterLink>
-            <FooterLink to='/'>Terms of Service</FooterLink>
-          </FooterLinkItems>
-          <FooterLinkItems>
-            <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
-            <FooterLink to='/'>Support</FooterLink>
-            <FooterLink to='/'>Destinations</FooterLink>
-            <FooterLink to='/'>Sponsorships</FooterLink>
-          </FooterLinkItems>
+          
+        <FooterLinkItems>
+            <FooterLinkTitle>Address</FooterLinkTitle>
+            Harmu Housing Colony, Argora, Ranchi, Jharkhand - 834002    
+            <FooterLink to='/sign-up'>View Map</FooterLink>
+        </FooterLinkItems>
+        
+        <FooterLinkItems>
+         <FooterLinkTitle>Call Us :</FooterLinkTitle>
+            +91-7870359130 <br></br>
+            +91-7520295282  <br></br>
+            
+        </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to='/'>Submit Video</FooterLink>
-            <FooterLink to='/'>Ambassadors</FooterLink>
-            <FooterLink to='/'>Agency</FooterLink>
-            <FooterLink to='/'>Influencer</FooterLink>
+            <FooterLinkTitle>Members</FooterLinkTitle>
+            <FooterLink to='/'>Join Us</FooterLink>
+            <FooterLink to='/'>Log In</FooterLink>
+            <FooterLink to='/'>Register</FooterLink>
+            <FooterLink to='/'>FC Lounge</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
             <FooterLink to='/'>Instagram</FooterLink>
             <FooterLink to='/'>Facebook</FooterLink>
             <FooterLink to='/'>Youtube</FooterLink>
-            <FooterLink to='/'>Twitter</FooterLink>
+           
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
