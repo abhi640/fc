@@ -46,34 +46,47 @@ function Footer() {
           
         <FooterLinkItems>
             <FooterLinkTitle>Address</FooterLinkTitle>
-            Harmu Housing Colony, Argora, Ranchi, Jharkhand - 834002    
+            Harmu Housing Colony,<br></br>
+             Argora, Ranchi,<br></br>
+              Jharkhand - 834002 <br></br>
             <FooterLink to='/sign-up'>View Map</FooterLink>
         </FooterLinkItems>
-        
+
         <FooterLinkItems>
-         <FooterLinkTitle>Call Us :</FooterLinkTitle>
-            +91-7870359130 <br></br>
-            +91-7520295282  <br></br>
-            
-        </FooterLinkItems>
+          <FooterLinkTitle>Members</FooterLinkTitle>
+              <FooterLink to='/'>Join Us</FooterLink>
+              <FooterLink to='/'>Log In</FooterLink>
+              <FooterLink to='/'>Register</FooterLink>
+              <FooterLink to='/'>FC Lounge</FooterLink>
+            </FooterLinkItems>
+
         </FooterLinksWrapper>
+        
+        
         <FooterLinksWrapper>
-          <FooterLinkItems>
-            <FooterLinkTitle>Members</FooterLinkTitle>
-            <FooterLink to='/'>Join Us</FooterLink>
-            <FooterLink to='/'>Log In</FooterLink>
-            <FooterLink to='/'>Register</FooterLink>
-            <FooterLink to='/'>FC Lounge</FooterLink>
-          </FooterLinkItems>
+        
+            <FooterLinkItems>
+                <FooterLinkTitle>Call Us :</FooterLinkTitle>
+                
+                  +91-7870359130 <br></br>
+                  +91-7520295282  <br></br> <br></br>
+                  <FooterLink to='/'>Request Call Back</FooterLink>
+                  
+                  
+            </FooterLinkItems>
+         
+
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
             <FooterLink to='/'>Instagram</FooterLink>
             <FooterLink to='/'>Facebook</FooterLink>
             <FooterLink to='/'>Youtube</FooterLink>
-           
-          </FooterLinkItems>
+           </FooterLinkItems>
+
         </FooterLinksWrapper>
+
       </FooterLinksContainer>
+
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
